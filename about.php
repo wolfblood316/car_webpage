@@ -27,7 +27,7 @@
     </div>-->
   <div class="container">
       <!-- Example row of columns -->
-      <div class="row">
+     <div class="row">
 	<div class="col-md-12" >
         <img src="images/car.jpg" alt="map" class="img-responsive"/>
         </div>
@@ -36,23 +36,24 @@
         </div>
       <div class="row">
           
-        <div class="col-md-4 col-lg-4  cloum2">
+        <div class="col-md-12 col-lg-12  cloum2">
           <h2>Heading</h2>
           <p>
  </p>
-          
+          </div>
         </div>
-        <div class="col-md-4 col-lg-4  cloum3">
+      <div class="row">
+        <div class="col-md-12 col-lg-12  cloum3">
           <h2>Heading</h2>
           <p></p>
-          
+          </div>
        </div>
-        <div class="col-md-4 col-lg-4 cloum4">
+      <div class="row">
+        <div class="col-md-12 col-lg-12 cloum4">
           <h2>Heading</h2>
           
-         
+         </div>
         </div>
-      </div>
 <?php include('inc/footer.inc.php'); ?>
     </div> <!-- /container -->
 

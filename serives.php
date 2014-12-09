@@ -8,7 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/wk8custom.css" rel="stylesheet" type="text/css">
+   <!--<link href="css/wk8custom.css" rel="stylesheet" type="text/css">-->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,28 +17,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body id="home">
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">Serives</a></li>
-            <li><a href="#contact">About</a></li>
-              <li><a href="#contact">Shop</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+  <body >
+ <?php include('inc/header.inc.php'); ?>
     <!--<div class="jumbotron">
       <div class="container">
        
@@ -73,10 +53,7 @@
          
         </div>
       </div>
-<footer>
-	
-        <p>&copy; Company 2014</p>
-      </footer>
+<?php include('inc/footer.inc.php'); ?>
     </div> <!-- /container -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

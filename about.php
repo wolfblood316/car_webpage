@@ -37,8 +37,14 @@
       <div class="row">
           
         <div class="col-md-12 col-lg-12  cloum2">
-          <h2>Heading</h2>
-          <p>
+          <h2>GRAND PERFORMANCE</h2>
+          
+<h3>The Soul of Every Tesla</h3>
+<p>            
+Model X is a family vehicle with performance roots. The Tesla Vehicle Platform enables Model X to perform in ways never expected from a car of its size. With a center of gravity lower than any other SUV, you’ll notice nimble reflexes at every turn. The electric powertrain delivers instant torque for confident lane changes, even when loaded with seven adults and all their gear.</p>
+<h3>Dual Motor All-Wheel Drive</h3>
+<p>        
+Model X comes standard with Dual Motor All-Wheel Drive. The second motor enables more than all-weather, all-road capabilities: it increases torque and traction in everyday conditions. Model X Performance accelerates from 0 to 60 mph in less than 5 seconds, outperforming the fastest SUVs and many sports cars.
  </p>
           </div>
         </div>

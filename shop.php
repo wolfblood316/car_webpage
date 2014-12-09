@@ -50,8 +50,11 @@
       <div class="row">
           
         <div class="col-md-6 col-lg-6  cloum2">
-          <h2>Heading</h2>
-          <p>
+          <h2> WORLDWIDE</h2>
+          
+<h3>We would like to hear from you.</h3>
+<p>
+We want our customer service to be as amazing as our cars. If you have a question, we welcome you to contact our Product Specialists or visit one of our conveniently located Tesla Stores, Galleries, or Service Centers.
  </p>
           
         </div>

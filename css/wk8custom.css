@@ -4,17 +4,14 @@
 	padding:0;}
 
 body{
-	padding-top:50px;
-	background-color:#868686;
+	background-image: url("images/bg.png") repeat;
 
 }
-h2{
-	color:white;
-	margin:0;
-	padding:0;
 
-}
-p{color:white;
+
+p
+{
+    color:white;
 margin:0;
 	padding:0;
 }
@@ -22,33 +19,23 @@ hr{ border-color:white;
 	
 }
 
-.col-md-7 img{max-width:100%;height:auto;}
-
 .navbar-inverse{
-	background-color:#eb3d25;
+	background-color:#F8F8F8;
 
-}
-.navbar-nav>.active>a:hover {
-	background-color:#770b01;
-	
-}
-
-.cloum1{
-	/*background-color:#60134b;*/
 }
 
 .cloum2{
-	background-color:#96b704;
+	
 }
 .cloum3{
-	background-color:#60134b;
+	
 }
 .cloum4{
-	background-color:#50aeec;
+	
 }
-.cloum4 img{
-	width:100px; height:100px;
-}
+
+	
+
 footer{
 	background-color:black;
 }

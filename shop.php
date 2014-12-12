@@ -30,6 +30,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+    <style>
+        body{
+            background: url("images/bg.png") repeat;
+            
+        }</style>
   <body id="contact">
  <?php include('inc/header.inc.php'); ?>
    

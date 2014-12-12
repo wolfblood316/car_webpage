@@ -84,7 +84,7 @@
           <div class="row">
             <div class="col-md-8">
                 <h3>Send us a Message</h3>
-                <form method="post" action="/car_webpage/shop.php" name="sentMessage" id="contactForm" novalidate="">
+                <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" name="sentMessage" id="contact-form" novalidate="">
                     <fieldset>
                     <div class="control-group form-group">
                         <div class="controls">

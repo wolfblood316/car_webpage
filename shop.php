@@ -5,7 +5,7 @@
 	define('MESSAGE_SUBJECT','** Email from my Website **');
 	define('REPLY_TO', 'adrianlandin@yahoo.com');
 	define('FROM_ADDRESS', 'adrianlandin@yahoo.com');
-	define('REDIRECT_URL', 'www.yahoo.com');
+	define('REDIRECT_URL', 'http://wolfblood316.aisites.com/car_webpage/index.php');
 	
 	require_once('validation.php');
 
@@ -21,7 +21,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!--<link href="css/wk8custom.css" rel="stylesheet" type="text/css">-->
+    <link href="css/wk8custom.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,14 +30,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body id="contact">
  <?php include('inc/header.inc.php'); ?>
-    <!--<div class="jumbotron">
-      <div class="container">
-       
-        
-      </div>
-    </div>-->
+   
   <div class="container">
       <!-- Example row of columns -->
       <div class="row">
@@ -48,60 +43,80 @@
        
         </div>
       <div class="row">
-          
-        <div class="col-md-6 col-lg-6  cloum2">
-          <h2> WORLDWIDE</h2>
-          
-<h3>We would like to hear from you.</h3>
-<p>
-We want our customer service to be as amazing as our cars. If you have a question, we welcome you to contact our Product Specialists or visit one of our conveniently located Tesla Stores, Galleries, or Service Centers.
- </p>
-          
-        </div>
-        <div class="col-md-6 col-lg-6  cloum3">
-          <h2>Heading</h2>
-         <form class="form-horizontal">
-  <fieldset>
-    <legend>Legend</legend>
-    <div class="form-group">
-      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-      <div class="col-lg-10">
-        <input class="form-control" id="inputEmail" placeholder="Email" type="text">
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
-      <div class="col-lg-10">
-        <input class="form-control" id="inputPassword" placeholder="Password" type="password">
-        
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="textArea" class="col-lg-2 control-label">Textarea</label>
-      <div class="col-lg-10">
-        <textarea class="form-control" rows="3" id="textArea"></textarea>
-        <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="col-lg-10 col-lg-offset-2">
-        <button class="btn btn-default">Cancel</button>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-  </fieldset>
-</form>
-          
-       </div>
+            
+            <div class="col-md-8">
+                
+                <iframe scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed" frameborder="0" height="400px" width="100%"></iframe>
+            </div>
+            <!-- Contact Details Column -->
+            <div class="col-md-4">
+                <h3>Contact Details</h3>
+                <p>
+                    3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+                </p>
+                <p><i class="fa fa-phone"></i> 
+                    <abbr title="Phone">P</abbr>: (123) 456-7890</p>
+                <p><i class="fa fa-envelope-o"></i> 
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
+                </p>
+                <p><i class="fa fa-clock-o"></i> 
+                    <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
           <div class="row">
-	<div class="col-md-12" >
-        
+            <div class="col-md-8">
+                <h3>Send us a Message</h3>
+                <form method="post" action="/car_webpage/shop.php" name="sentMessage" id="contactForm" novalidate="">
+                    <fieldset>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Full Name:</label>
+                            <input class="required" id="name" required="" data-validation-required-message="Please enter your name." type="text">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Phone Number:</label>
+                            <input class="required" id="phone" required="" data-validation-required-message="Please enter your phone number." type="tel">
+                        <div class="help-block"></div></div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label for="email">Email Address:</label>
+                            <input class="email required" id="email" required="" data-validation-required-message="Please enter your email address." type="email">
+                        <div class="help-block"></div></div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label for="message">Message:</label>
+                            <textarea rows="10" cols="100" class="required" id="message" required="" data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                        <div class="help-block"></div></div>
+                    </div>
+                    <div id="success"></div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-primary" value="send" name="submitted">Send Message</button>
+                        </fieldset>
+                </form>
+            </div>
+
         </div>
-        
-       
-        </div>
-        
       </div>
+        
+      
 <?php include('inc/footer.inc.php'); ?>
     </div> <!-- /container -->
 
@@ -123,5 +138,7 @@ We want our customer service to be as amazing as our cars. If you have a questio
       
       
       </script>
-  </body>
+  
+      </body>
+    
 </html>

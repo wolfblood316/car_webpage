@@ -8,7 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-   <!--<link href="css/wk8custom.css" rel="stylesheet" type="text/css">-->
+   <link href="css/wk8custom.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,11 +32,11 @@
       <div class="row">
           
         <div class="col-md-12 col-lg-12  cloum2">
-            <img src="images/charge_time.png" alt="chart" class="pull-right  img-responsive"/>
+            <img src="images/charge_time.png" alt="chart" class="pull-left  img-responsive"/>
           <h2>ROAD TRIPS MADE EASY</h2>
           
 <h3>Charge in minutes, for free</h3>
-<p>
+<p class="align-right">
 Tesla Superchargers allow Model S owners to travel for free between cities along well-traveled highways in North America, Europe and Asia. Superchargers provide half a charge in as little as 20 minutes and are strategically placed to allow owners to drive from station to station with minimal stops.
 
 Coverage
@@ -57,9 +57,9 @@ Superchargers are located near amenities like roadside diners, cafes, and shoppi
         </div>
       <div class="row">
         <div class="col-md-12 col-lg-12  cloum3">
-            <img src="images/closeup.jpg" alt="station" class="pull-left img-responsive"  />
+            <img src="images/closeup.jpg" alt="station" class="pull-right img-responsive featurette-image"  />
           <h2>HOW IT WORKS</h2>
-          <p class="align-right">
+          <p class="align-left">
 Tesla Superchargers represent the most advanced charging technology in the world, capable of charging Model S 16x faster than most public charging stations. Many of our stations are capable of delivering up to 120 kW to Model S, which can replenish half a charge in as little as 20 minutes, for free. It works by delivering DC power directly to the battery using special cables that bypass onboard charging equipment.
 
 Select stations utilize canopies covered with solar panels to offset energy use and provide shade. Over the next few years, we plan to cover more stations in sunny locales with solar canopies as part of our commitment to the environment.

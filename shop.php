@@ -84,38 +84,23 @@
           <div class="row">
             <div class="col-md-8">
                 <h3>Send us a Message</h3>
-                <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" name="sentMessage" id="contact-form" novalidate="">
-                    <fieldset>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Full Name:</label>
-                            <input class="required" id="name" required="" data-validation-required-message="Please enter your name." type="text">
-                            <p class="help-block"></p>
-                        </div>
-                    </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label>Phone Number:</label>
-                            <input class="required" id="phone" required="" data-validation-required-message="Please enter your phone number." type="tel">
-                        <div class="help-block"></div></div>
-                    </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label for="email">Email Address:</label>
-                            <input class="email required" id="email" required="" data-validation-required-message="Please enter your email address." type="email">
-                        <div class="help-block"></div></div>
-                    </div>
-                    <div class="control-group form-group">
-                        <div class="controls">
-                            <label for="message">Message:</label>
-                            <textarea rows="10" cols="100" class="required" id="message" required="" data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-                        <div class="help-block"></div></div>
-                    </div>
-                    <div id="success"></div>
-                    <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary" value="send" name="submitted">Send Message</button>
-                        </fieldset>
-                </form>
+                <form id="contact-form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+			<fieldset>
+				<p>
+					<label for="name">Name:</label><?php echo @$name_error; ?>
+					<input type="text" id="name" name="name" value="<?php echo @$name ?>" class="required" required />
+				</p>
+				<p>
+					<label for="email">Email:</label><?php echo @$email_error; ?>
+					<input type="email" id="email" name="email" value="<?php echo @$email ?>" class="email required" required />
+				</p>
+				<p>
+					<label for="message">Message:</label><?php echo @$message_error; ?>
+					<textarea cols="45" rows="7" id="message" name="message" class="required"><?php echo @$message ?></textarea>
+				</p>
+				<input name="submitted" type="submit" value="Send" />
+			</fieldset>
+		</form>
             </div>
 
         </div>

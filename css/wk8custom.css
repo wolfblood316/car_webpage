@@ -9,11 +9,10 @@ body{
 }
 
 
-p
+p,h3
 {
     color:white;
-margin:0;
-	padding:0;
+
 }
 hr{ border-color:white;
 	
@@ -23,8 +22,9 @@ hr{ border-color:white;
 	background-color:#F8F8F8;
 
 }
-
-.cloum2{
+.cloum2 p{color:#2f2f2f;}
+.cloum2{ 
+    background-color:#fff;
 	
 }
 .cloum3{

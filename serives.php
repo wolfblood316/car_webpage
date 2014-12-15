@@ -61,8 +61,10 @@ Superchargers are located near amenities like roadside diners, cafes, and shoppi
           </div>
         </div>
       <div class="row">
-        <div class="col-md-12 col-lg-12  cloum3">
+        <div class="col-md-6 col-lg-6  cloum3">
             <img src="images/closeup.jpg" alt="station" class="pull-right img-responsive featurette-image"  />
+            </div>
+          <div class="col-md-6 col-lg-6  cloum3">
           <h2>HOW IT WORKS</h2>
           <p class="align-left">
 Tesla Superchargers represent the most advanced charging technology in the world, capable of charging Model S 16x faster than most public charging stations. Many of our stations are capable of delivering up to 120 kW to Model S, which can replenish half a charge in as little as 20 minutes, for free. It works by delivering DC power directly to the battery using special cables that bypass onboard charging equipment.
